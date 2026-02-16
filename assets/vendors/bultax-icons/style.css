@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon7d02.eot?96m7ta');
+  src:  url('fonts/icomoon7d02.eot?96m7ta#iefix') format('embedded-opentype'),
+    url('fonts/icomoon7d02.ttf?96m7ta') format('truetype'),
+    url('fonts/icomoon7d02.woff?96m7ta') format('woff'),
+    url('fonts/icomoon7d02.svg?96m7ta#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+  content: "\e92c";
+}
+.icon-play1:before {
+  content: "\e92b";
+}
+.icon-icon-search:before {
+  content: "\e929";
+}
+.icon-comment-check:before {
+  content: "\e92a";
+}
+.icon-star:before {
+  content: "\e928";
+}
+.icon-arrow-left:before {
+  content: "\e919";
+}
+.icon-pluse:before {
+  content: "\e91a";
+}
+.icon-angle-small-left:before {
+  content: "\e91b";
+}
+.icon-angle-small-right:before {
+  content: "\e91c";
+}
+.icon-checked:before {
+  content: "\e91d";
+}
+.icon-mail2:before {
+  content: "\e91e";
+}
+.icon-comment:before {
+  content: "\e91f";
+}
+.icon-user:before {
+  content: "\e920";
+}
+.icon-dropdownsvg:before {
+  content: "\e921";
+}
+.icon-menu1:before {
+  content: "\e922";
+}
+.icon-angle-arrow:before {
+  content: "\e923";
+}
+.icon-tollay:before {
+  content: "\e924";
+}
+.icon-search:before {
+  content: "\e925";
+}
+.icon-pin:before {
+  content: "\e926";
+}
+.icon-email:before {
+  content: "\e927";
+}
+.icon-check-box:before {
+  content: "\e900";
+}
+.icon-architect:before {
+  content: "\e901";
+}
+.icon-sketch:before {
+  content: "\e902";
+}
+.icon-excavator:before {
+  content: "\e903";
+}
+.icon-engineering:before {
+  content: "\e904";
+}
+.icon-construction-site:before {
+  content: "\e905";
+}
+.icon-buildings:before {
+  content: "\e906";
+}
+.icon-maintenance:before {
+  content: "\e907";
+}
+.icon-worker:before {
+  content: "\e908";
+}
+.icon-dialog:before {
+  content: "\e909";
+}
+.icon-communication:before {
+  content: "\e90a";
+}
+.icon-phone-call:before {
+  content: "\e90b";
+}
+.icon-location:before {
+  content: "\e90c";
+}
+.icon-brickwall:before {
+  content: "\e90d";
+}
+.icon-completed-task:before {
+  content: "\e90e";
+}
+.icon-trophy:before {
+  content: "\e90f";
+}
+.icon-costumer:before {
+  content: "\e910";
+}
+.icon-under-construction:before {
+  content: "\e911";
+}
+.icon-shape:before {
+  content: "\e912";
+}
+.icon-shape-1:before {
+  content: "\e913";
+}
+.icon-zoom-in:before {
+  content: "\e914";
+}
+.icon-customer-service:before {
+  content: "\e915";
+}
+.icon-easy-installation:before {
+  content: "\e916";
+}
+.icon-easy-installation-1:before {
+  content: "\e917";
+}
+.icon-support:before {
+  content: "\e918";
+}

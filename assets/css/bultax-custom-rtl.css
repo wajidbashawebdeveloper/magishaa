@@ -1,0 +1,189 @@
+body {
+  overflow-x: hidden;
+  direction: rtl;
+}
+
+.owl-carousel {
+  direction: ltr;
+}
+
+.owl-carousel .owl-nav,
+.owl-carousel .owl-dots,
+.owl-carousel .owl-item {
+  direction: rtl;
+}
+
+.contact__input-box .bootstrap-select .dropdown-menu,
+.bootstrap-select .dropdown-toggle .filter-option {
+  text-align: right;
+}
+
+.list-unstyled {
+  padding-right: 0;
+}
+
+.service-one__shape-one,
+.main-header__shape::before,
+.topbar-one::after {
+  right: auto;
+}
+
+.team-card__hover__social,
+.main-slider-one__carousel .owl-dots {
+  left: auto;
+}
+
+.feature-one__item .icon,
+.service-one__carousel-nav button,
+.project-area__carousel-nav button,
+.project-management__image__item-one,
+.project-management__image__item-two,
+.about-one__thumb__item,
+.project-area__item__content,
+.project-area__item__hover::after,
+.testimonials-one::after,
+.blog-card__image,
+.blog-card__btn_icon,
+.contact-one--home::after,
+.contact-one__call__item .icon,
+.main-header__shape::after {
+  transform: rotateY(-180deg);
+}
+
+.main-header__info + .main-header__btn,
+.main-header__btn + .main-header__btn-popup {
+  margin-left: 0;
+}
+
+.main-menu .main-menu__list > li + li {
+  margin-left: 0px;
+  margin-right: 30px;
+}
+
+.main-slider-one__content::after,
+.footer-widget--about::after,
+.main-slider-one__image {
+  right: auto;
+}
+
+.cta-one__content,
+.main-slider-one__top .subtitle-box {
+  border-left: none;
+}
+
+.bultax-btn__icon-box {
+  transform: rotateY(-180deg);
+}
+.bultax-btn__icon-box .bultax-btn__icon i {
+  transform: translate(-15px, 15px);
+}
+
+.about-one__bulldozer,
+.about-one__feature__shape::after,
+.main-footer .main-footer__shape,
+.main-footer .main-footer__employe,
+.about-one__feature__item::after {
+  transform: rotateY(-180deg);
+  left: auto;
+}
+
+.blog-card::after,
+.feature-one__item::before,
+.cta-one__hammer,
+.cta-one--two .cta-one__inner::after,
+.project-area__item .bultax-btn,
+.project-management__feature-title::after,
+.project-management__feature-box::before,
+.main-footer .main-footer__shape-logo,
+.team-card::after,
+.about-one__thumb__item-small {
+  transform: rotateY(-180deg);
+  right: auto;
+}
+
+.project-management__image__item-one {
+  margin-right: 0;
+}
+
+.project-management__image__item-three {
+  text-align: left;
+}
+
+.blog-card::before,
+.blog-card__shape,
+.team-card__content-box,
+.project-management__shape {
+  right: auto;
+}
+
+.team-card__content-box::before {
+  transform: rotateX(-180deg);
+  top: auto;
+  bottom: 0;
+}
+
+.about-one__thumb__funfact__count::after {
+  right: auto;
+  transform: translateY(-50%) rotateY(-180deg);
+}
+
+.testimonials-one__thumb {
+  right: auto;
+}
+.testimonials-one__thumb img {
+  border: none;
+  transform: rotateY(-180deg);
+}
+
+.testimonials-one__carousel__slick-button--prev,
+.testimonials-one__carousel__slick-button--next {
+  right: auto;
+  transform: rotateY(-180deg);
+}
+
+.contact-one__call__item:hover .contact-one__call__item__shape:last-child {
+  transform: translateX(0px) rotateY(-180deg);
+}
+
+.contact-one__call__item:hover .contact-one__call__item__shape {
+  transform: translateX(0px) rotateY(-180deg);
+}
+
+.main-footer__cta__form__newsletter .bultax-btn {
+  right: auto;
+}
+.main-footer__cta__form__newsletter .bultax-btn i {
+  transform: rotateY(-180deg);
+}
+
+.team-card__shape,
+.main-footer__bottom__inner::before {
+  right: auto;
+}
+
+.main-footer__bottom__inner::after {
+  left: auto;
+}
+
+.main-slider-one__title {
+  font-size: 35px;
+}
+
+.service-one__item__btn a {
+  transform: rotateY(-180deg);
+}
+
+.service-one__item:hover .service-one__item__btn a i,
+.blog-card__btn:hover i {
+  transform: rotate(45deg);
+}
+
+.footer-widget--open-day {
+  margin-right: -50px;
+}
+@media (max-width: 1199px) {
+  .footer-widget--open-day {
+    margin-right: 0;
+  }
+}
+/*# sourceMappingURL=bultax-custom-rtl.css.map */
