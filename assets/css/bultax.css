@@ -2741,7 +2741,7 @@ p {
 /*--------------------------------------------------------------
 # Custom Cursor
 --------------------------------------------------------------*/
-.custom-cursor__cursor {
+/* .custom-cursor__cursor {
   width: 25px;
   height: 25px;
   border-radius: 100%;
@@ -2778,7 +2778,7 @@ p {
   width: 25px;
   height: 25px;
   opacity: 0.4;
-}
+} */
 
 /*--------------------------------------------------------------
 # Footer
@@ -16309,7 +16309,7 @@ body.boxed-wrapper .main-slider-one__shape img {
 @media (max-width: 991px) {
   .project-area__item {
     flex: 47%;
-    width: 47%;
+    /* width: 47%; */
     margin-bottom: 0;
   }
 }
@@ -17673,10 +17673,22 @@ body.boxed-wrapper .main-slider-one__shape img {
     width: 100%;
   }
 }
+.cardheight{
+  height: 750px;
+  margin-bottom: 20px;
+}
 @media (max-width: 575px) {
   .company-solution-three__thumb::after {
     display: none;
   }
+  .cardheight{
+  height: 650px;
+}
+}
+@media (max-width:850px) {
+  .cardheight{
+  height: 650px;
+}
 }
 .company-solution-three__man {
   position: absolute;
@@ -17705,3 +17717,22 @@ body.boxed-wrapper .main-slider-one__shape img {
   animation: bwLeftToRight 3s ease-in-out infinite;
 }
 /*# sourceMappingURL=bultax.css.map */
+.cardcontents{
+  padding: 30px 20px;
+}
+.ribbon3
+ {
+    z-index: 1;
+    font-size: 13px;
+    padding: 5px 15px;
+    position: absolute;
+    left: -8px;
+    top: 20px;
+    background: #1362ad;
+    color: #fff;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, .5);
+}
+.project-area__item{
+  box-shadow: 2px 1px 3px rgba(0, 0, 0, .5);
+  border-radius: 10px;
+}
