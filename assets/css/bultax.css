@@ -17684,6 +17684,9 @@ body.boxed-wrapper .main-slider-one__shape img {
   .cardheight{
   height: 650px;
 }
+.footer-widget__text{
+  width: 100%;
+}  
 }
 @media (max-width:850px) {
   .cardheight{
